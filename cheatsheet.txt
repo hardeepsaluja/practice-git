@@ -1,0 +1,21 @@
+Terminal Commands:
+
+--Create folder (directory): mkdir folder-name (make directory)
+
+--Enter the folder that we created: cd folder-name
+
+--Create a file: touch file-name.html,.css,.js
+
+On GitHub -- steps:
+1. Create new repository by clicking on "+" sign next to the profile pic on github.com/your-username
+2. Copy the line that has "git remote add origin ..."
+
+Git Commands --on our local computer (Terminal):
+1. git init -> initialize local repository as git repository
+    (prepare local repository to be attached to the one on GitHub)
+2. Paste the line copied from GitHub
+3. git remote -v to check if your local repository is connected with the repository created on GitHub.
+    (you should see something like: origin github.com/your-username/repository-name.git)
+4. git add . ->add all files from the repository to the staging phase
+5. git commit -m"enter message here (it's mandatory)" -> commit and and message about the commit.
+6. git push origin master -> sends the files to the corresponding repository on GitHub.
